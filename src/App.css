@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;800&family=Outfit:wght@400;500;600&family=Roboto:wght@300&display=swap');
+
 .App {
   display: flex;
   align-items: center;
@@ -29,9 +31,11 @@
 }
 
 .App-image h1, .App-image h2 {
+  font-family: "Outfit 800";
+  font-weight: 700px;
   text-align: center;
-  font-size: 1rem;
-  padding-top: 1rem
+  font-size: 2rem;
+  padding-top: 1rem;
 }
 
 #QR-Code {
